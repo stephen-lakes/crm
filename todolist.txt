@@ -12,8 +12,8 @@ Todolist
     -DONE Make it possible to log out
 -DONE Simple dashboard
 -Create new leads
-    -New django app
-    -Database models
+    -DONE New django app
+    -DONE Database models
     -Views/Forms for leads
     -List out leads
     -View detail page of leads
