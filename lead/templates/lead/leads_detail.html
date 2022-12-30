@@ -24,9 +24,10 @@
         <p class="mb-2 ">{{ lead.modified_at }}</p>
 
         <hr class="my-4">
+        <a href="{% url 'leads_convert' lead.id %}" class="px-4 py-2 bg-blue-500 rounded text-white">Convert to client</a>
         <a href="{% url 'leads_edit' lead.id %}" class="px-4 py-2 bg-teal-500 rounded text-white">Edit</a>
         <a href="{% url 'leads_delete' lead.id %}" class="px-4 py-2 bg-red-500 rounded text-white">Delete</a>
         <hr class="my-4">
-        <a href="{% url 'leads_list' %}">Back to leads</a>
+        <a href="{% url 'leads_list' %}">&#8592 Back to leads</a>
     </div>
 {% endblock %}
